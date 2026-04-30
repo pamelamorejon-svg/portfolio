@@ -1,7 +1,7 @@
 import { loginAction } from "./actions";
 
 export const metadata = {
-  title: "Pamela Morejon — Sign in",
+  title: "Pamela Morejón — Sign in",
   robots: { index: false, follow: false },
 };
 
@@ -17,12 +17,11 @@ export default function LoginPage({
     <main className="min-h-screen flex items-center justify-center px-6">
       <div className="w-full max-w-sm">
         <p className="text-xs uppercase tracking-[0.2em] text-muted mb-4">
-          Pamela Morejon
+          Pamela Morejón
         </p>
-        <h1 className="font-serif text-3xl mb-2">Selected work</h1>
+        <h1 className="font-serif text-3xl mb-2">Portfolio preview</h1>
         <p className="text-muted mb-8">
-          This portfolio is shared by invitation. Enter the password to
-          continue.
+          Please enter the password to continue.
         </p>
 
         <form action={loginAction} className="space-y-4">
@@ -46,7 +45,7 @@ export default function LoginPage({
           ) : null}
           <button
             type="submit"
-            className="w-full bg-ink text-page py-3 rounded-md hover:opacity-90 transition-opacity"
+            className="w-full bg-[#F76056] text-white py-3 rounded-md hover:opacity-90 transition-opacity"
           >
             Enter
           </button>

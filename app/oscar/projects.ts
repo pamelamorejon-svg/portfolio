@@ -2,6 +2,7 @@
 // `bg` controls the panel color: "cream" or "sky".
 // `image` is a path under /public — drop your screenshots into /public/projects/.
 // Leave `image` as null to show a styled placeholder.
+// `imageClass` controls the absolute positioning of the image container inside the tile.
 
 export type Project = {
   title: string;
@@ -11,7 +12,9 @@ export type Project = {
   summary: string;
   bg: "cream" | "sky";
   image: string | null;
-  href?: string; // optional link to a case study
+  imageClass?: string;
+  imgClass?: string;
+  href?: string;
 };
 
 export const projects: Project[] = [
@@ -23,7 +26,8 @@ export const projects: Project[] = [
     summary:
       "A configuration tool that lets carriers stand up new health plans in days instead of months — copays, coinsurance, networks, and overrides in a single flow.",
     bg: "cream",
-    image: null, // e.g. "/projects/01-benefits-config.png"
+    image: "/projects/PAS.png",
+    imageClass: "absolute bottom-0 left-[14%] right-0",
   },
   {
     title: "Plan summary documents",
@@ -33,7 +37,8 @@ export const projects: Project[] = [
     summary:
       "An auto-generated benefits summary that turns plan configuration into a member-friendly document, eliminating manual benefit booklets.",
     bg: "sky",
-    image: null,
+    image: "/projects/PDSA.png",
+    imageClass: "absolute top-[20%] left-[20%] right-0",
   },
   {
     title: "Cai — member insights",
@@ -43,7 +48,9 @@ export const projects: Project[] = [
     summary:
       "An AI insights surface for plan administrators that turns claims data into recoverable cost opportunities.",
     bg: "sky",
-    image: null,
+    image: "/projects/Ingenuity.png",
+    imageClass: "absolute inset-0",
+    imgClass: "w-full h-full object-cover object-top",
   },
   {
     title: "Adjudication Copilot",
@@ -53,7 +60,9 @@ export const projects: Project[] = [
     summary:
       "A claim review assistant that explains pend rules, surfaces findings, and recommends adjudication decisions with reviewer feedback baked in.",
     bg: "cream",
-    image: null,
+    image: "/projects/Copilot.png",
+    imageClass: "absolute inset-0",
+    imgClass: "w-full h-full object-cover object-top",
   },
   {
     title: "Coordination of Benefits",
@@ -63,12 +72,16 @@ export const projects: Project[] = [
     summary:
       "A claims workspace that reconciles primary, secondary, and tertiary payers — with an activity timeline that explains every edit.",
     bg: "cream",
-    image: null,
+    image: "/projects/Benefit-Optimizer.png",
+    imageClass: "absolute inset-0",
+    imgClass: "w-full h-full object-cover object-top",
   },
   {
     title: "More coming soon",
     summary: "Reach out if you'd like to see additional case studies.",
     bg: "sky",
-    image: null,
+    image: "/projects/Looker.png",
+    imageClass: "absolute inset-0",
+    imgClass: "w-full h-full object-cover object-top",
   },
 ];

@@ -8,40 +8,33 @@ const bgClass: Record<Project["bg"], string> = {
 export function ProjectTile({ project }: { project: Project }) {
   const inner = (
     <div
-      className={`${bgClass[project.bg]} relative aspect-[3/4] md:aspect-[4/5] w-full overflow-hidden`}
+      className={`${bgClass[project.bg]} relative aspect-square w-full overflow-hidden`}
     >
-      {/* Image area — fills most of the tile, centered with margin */}
-      <div className="absolute inset-[8%] flex items-center justify-center">
+      {/* Image area */}
+      <div className={project.imageClass ?? "absolute bottom-0 left-[14%] w-[90%]"}>
         {project.image ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={project.image}
             alt={project.title}
-            className="max-h-full max-w-full object-contain shadow-[0_20px_60px_-20px_rgba(0,0,0,0.25)]"
+            className={project.imgClass ?? "w-full h-auto shadow-[0_4px_40px_rgba(0,0,0,0.18)]"}
           />
         ) : (
           <PlaceholderCard project={project} />
         )}
       </div>
 
-      {/* Caption overlay (only visible on hover) */}
-      <div className="absolute inset-x-0 bottom-0 p-6 md:p-8 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-t from-black/40 to-transparent">
-        <p className="text-white text-sm font-medium">
-          {project.client ? `${project.client} — ` : ""}
-          {project.title}
-        </p>
-      </div>
     </div>
   );
 
   if (project.href) {
     return (
-      <a href={project.href} className="group block">
+      <a href={project.href} className="block">
         {inner}
       </a>
     );
   }
-  return <div className="group block">{inner}</div>;
+  return <div className="block">{inner}</div>;
 }
 
 function PlaceholderCard({ project }: { project: Project }) {
