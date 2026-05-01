@@ -26,8 +26,9 @@ export const projects: Project[] = [
     summary:
       "A configuration tool that lets carriers stand up new health plans in days instead of months — copays, coinsurance, networks, and overrides in a single flow.",
     bg: "cream",
-    image: "/projects/PAS.png",
-    imageClass: "absolute bottom-0 left-[14%] right-0",
+    image: "/projects/square-1.png",
+    imageClass: "absolute inset-0",
+    imgClass: "w-full h-full object-fill",
   },
   {
     title: "Plan summary documents",
@@ -37,8 +38,9 @@ export const projects: Project[] = [
     summary:
       "An auto-generated benefits summary that turns plan configuration into a member-friendly document, eliminating manual benefit booklets.",
     bg: "sky",
-    image: "/projects/PDSA.png",
-    imageClass: "absolute top-[20%] left-[20%] right-0",
+    image: "/projects/square-2.png",
+    imageClass: "absolute inset-0",
+    imgClass: "w-full h-full object-fill",
   },
   {
     title: "Cai — member insights",
@@ -48,9 +50,9 @@ export const projects: Project[] = [
     summary:
       "An AI insights surface for plan administrators that turns claims data into recoverable cost opportunities.",
     bg: "sky",
-    image: "/projects/Ingenuity.png",
+    image: "/projects/square-3.png",
     imageClass: "absolute inset-0",
-    imgClass: "w-full h-full object-cover object-top",
+    imgClass: "w-full h-full object-fill",
   },
   {
     title: "Adjudication Copilot",
@@ -60,7 +62,7 @@ export const projects: Project[] = [
     summary:
       "A claim review assistant that explains pend rules, surfaces findings, and recommends adjudication decisions with reviewer feedback baked in.",
     bg: "cream",
-    image: "/projects/Copilot.png",
+    image: "/projects/square-4.png",
     imageClass: "absolute inset-0",
     imgClass: "w-full h-full object-cover object-top",
   },

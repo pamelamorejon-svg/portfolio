@@ -35,7 +35,7 @@ export default function OscarPortfolio() {
       </header>
 
       {/* Project grid — alternating cream/sky panels, edge to edge */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-[20px] p-[50px]">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-[20px] p-[50px] max-w-[1400px]">
         {projects.map((p, i) => (
           <ProjectTile key={i} project={p} />
         ))}
