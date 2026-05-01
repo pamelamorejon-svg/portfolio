@@ -10,7 +10,7 @@ export default function OscarPortfolio() {
   return (
     <main className="oscar-page min-h-screen">
       {/* Header */}
-      <header className="px-[50px] pt-20 md:pt-28 pb-0 md:pb-[14px]">
+      <header className="px-[50px] pt-20 md:pt-28 pb-0 md:pb-[14px] max-w-[1400px]">
         <div className="flex items-baseline justify-between gap-6">
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-muted mb-4">
