@@ -82,7 +82,7 @@ export const projects: Project[] = [
     title: "More coming soon",
     summary: "Reach out if you'd like to see additional case studies.",
     bg: "sky",
-    image: "/projects/Looker.png",
+    image: "/projects/square-6.png",
     imageClass: "absolute inset-0",
     imgClass: "w-full h-full object-cover object-top",
   },
