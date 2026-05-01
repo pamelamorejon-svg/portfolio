@@ -42,7 +42,7 @@ export default function OscarPortfolio() {
       </section>
 
       {/* About + contact */}
-      <section className="px-[50px] pt-0 md:pt-[14px] pb-24 md:pb-32 grid md:grid-cols-2 gap-[20px]">
+      <section className="px-[50px] pt-0 md:pt-[14px] pb-24 md:pb-32 grid md:grid-cols-2 gap-[20px] items-end">
         <div>
           <p className="text-xs uppercase tracking-[0.2em] text-muted mb-6">
             About
@@ -76,7 +76,7 @@ export default function OscarPortfolio() {
               </a>
             </li>
           </ul>
-          <p className="mt-[45px] text-sm text-muted">
+          <p className="mt-1 text-sm text-muted">
             This page is shared by invitation only. If you&apos;d like to pass the link beyond Oscar, please reach out to me first. Thank you!
           </p>
         </div>
