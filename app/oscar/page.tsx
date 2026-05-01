@@ -20,7 +20,7 @@ export default function OscarPortfolio() {
               Pamela Morejón
             </h1>
             <p className="mt-4 text-sm md:text-base text-muted max-w-xl">
-              Product Design Director leading UX and content teams at<br />the intersection of healthcare, enterprise software, and AI —<br />where trust isn't a feature, it's the foundation.
+              Product Design Director leading UX and content teams at<br />the intersection of healthcare, emerging technology, and AI —<br />where trust isn't a feature, it's the foundation.
             </p>
           </div>
           <form action={logoutAction}>
