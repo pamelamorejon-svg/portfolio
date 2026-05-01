@@ -62,7 +62,7 @@ export const projects: Project[] = [
     summary:
       "A claim review assistant that explains pend rules, surfaces findings, and recommends adjudication decisions with reviewer feedback baked in.",
     bg: "cream",
-    image: "/projects/square-4.png",
+    image: "/projects/square-44.png",
     imageClass: "absolute inset-0",
     imgClass: "w-full h-full object-cover object-top",
   },
