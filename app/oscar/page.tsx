@@ -56,7 +56,7 @@ export default function OscarPortfolio() {
           <p className="text-xs uppercase tracking-[0.2em] text-muted mb-6">
             Contact
           </p>
-          <ul className="space-y-3 text-lg">
+          <ul className="space-y-0 text-lg">
             <li>
               <a
                 href="mailto:pamela.morejon@gmail.com"
