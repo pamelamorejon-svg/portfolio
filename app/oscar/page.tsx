@@ -48,7 +48,7 @@ export default function OscarPortfolio() {
             About
           </p>
           <p className="mt-6 text-muted leading-relaxed">
-            For this preview I've focused on two areas: the client portal — including the analytics dashboards benefit administrators rely on — and our internal tooling, including adjudication systems, plan configuration, and a new AI copilot built for claims associates. I care about design that is accessible, builds trust, and holds up under real use.
+            For this preview I've focused on two areas: the client portal — including the<br />analytics dashboards benefit administrators rely on — and our internal tooling,<br />including adjudication systems, plan configuration, and a new AI copilot built<br />for claims associates. I care about design that is accessible, builds trust, and<br />holds up under real use.
           </p>
         </div>
 
