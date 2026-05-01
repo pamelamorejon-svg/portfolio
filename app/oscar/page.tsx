@@ -42,7 +42,7 @@ export default function OscarPortfolio() {
       </section>
 
       {/* About + contact */}
-      <section className="px-[50px] pt-0 md:pt-[14px] pb-24 md:pb-32 grid md:grid-cols-2 gap-[20px]">
+      <section className="px-[50px] pt-0 md:pt-[14px] pb-24 md:pb-32 grid md:grid-cols-2 gap-[20px] max-w-[1400px]">
         <div>
           <p className="text-xs uppercase tracking-[0.2em] text-muted mb-6">
             About
