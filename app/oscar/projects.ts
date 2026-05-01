@@ -74,7 +74,7 @@ export const projects: Project[] = [
     summary:
       "A claims workspace that reconciles primary, secondary, and tertiary payers — with an activity timeline that explains every edit.",
     bg: "cream",
-    image: "/projects/Benefit-Optimizer.png",
+    image: "/projects/square-5.png",
     imageClass: "absolute inset-0",
     imgClass: "w-full h-full object-cover object-top",
   },
