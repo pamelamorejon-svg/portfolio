@@ -83,10 +83,7 @@ export default function OscarPortfolio() {
       </section>
 
       <footer className="border-t border-black/10">
-        <div className="max-w-6xl mx-auto px-6 md:px-10 py-8 text-xs text-muted flex justify-between">
-          <span>© {new Date().getFullYear()} Pamela Morejón</span>
-          <span>pamelamorejon.com/oscar</span>
-        </div>
+        <div className="max-w-6xl mx-auto px-6 md:px-10 py-8" />
       </footer>
     </main>
   );
